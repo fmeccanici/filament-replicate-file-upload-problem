@@ -31,7 +31,7 @@ class OrderResource extends Resource
                     ->acceptedFileTypes([
                         'application/vnd.sketchup.skp',
                         'application/octet-stream',
-                        'application/vnd.koan'
+//                        'application/vnd.koan'
                     ])
 //                    ->afterStateUpdated(function ($state) {
 //                        ray(collect($state)->map->getMimeType()->toArray());
